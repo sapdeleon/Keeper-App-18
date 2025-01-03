@@ -1,4 +1,5 @@
-import React from 'react'
-import { createRoot } from 'react-dom/client'
+import React from "react"
+import { createRoot } from "react-dom/client"
+import App from "./components/App"
 
-createRoot(document.getElementById('root')).render(<h1>Starting React Application Template</h1>);
+createRoot(document.getElementById('root')).render(<App />);
